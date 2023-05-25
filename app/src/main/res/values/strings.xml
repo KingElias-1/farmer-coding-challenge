@@ -1,3 +1,15 @@
 <resources>
     <string name="app_name">FarmerCodingChallenge</string>
+    <string name="motto">We Drive Agriculture through Technology</string>
+    <string name="comp_name">e-ADAPP</string>
+    <string name="enter_email_or_phone">Enter email or phone</string>
+    <string name="login_to_your_account">Login to your account</string>
+    <string name="welcome_back">Welcome Back</string>
+    <string name="password">Password</string>
+    <string name="remember_me">Remember me</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="or">OR</string>
+    <string name="signup_prompt">Don\'t have an Account? <font color="#128546">Create Account</font></string>
+    <string name="fingerprint">fingerprint</string>
+    <string name="log_in">Log In</string>
 </resources>
