@@ -12,4 +12,25 @@
     <string name="signup_prompt">Don\'t have an Account? <font color="#128546">Create Account</font></string>
     <string name="fingerprint">fingerprint</string>
     <string name="log_in">Log In</string>
+    <string name="menu_bar">menu bar</string>
+    <string name="farmers_panel">Farmers\' Panel</string>
+    <string name="lorem_ipsum">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas auctor metus vitae leo congue pellentesque. Cras diam eros, aliquet et efficitur ac, ultrices a est.</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="profile">Profile View</string>
+    <string name="form">Form</string>
+    <string name="hello_form">Form Frag\n</string>
+    <string name="hello_profile">Hello Profile</string>
+    <string name="firstname">First Name</string>
+    <string name="lastname">Last Name</string>
+    <string name="birth_place">Birth Place</string>
+    <string name="date_of_birth">Date of birth</string>
+    <string name="house_number">House Number</string>
+    <string name="community">Community</string>
+    <string name="occupation">Occupation</string>
+    <string name="district">District</string>
+    <string name="region">Region</string>
+    <string name="marital_status">Marital Status</string>
+    <string name="bio">Bio</string>
+    <string name="user_profile_image">user profile image</string>
 </resources>

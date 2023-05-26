@@ -1,8 +1,9 @@
-package com.kingelias.farmercodingchallenge
+package com.kingelias.farmercodingchallenge.activities
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.util.Log
 import com.kingelias.farmercodingchallenge.databinding.ActivityAuthBinding
 
 class AuthActivity : AppCompatActivity() {
@@ -10,14 +11,12 @@ class AuthActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         authBinding = ActivityAuthBinding.inflate(layoutInflater)
-        setContentView(R.layout.activity_auth)
+        setContentView(authBinding.root)
 
+        Log.i("Button", "Auth")
         authBinding.loginBn.setOnClickListener{
             startActivity(Intent(this, DashActivity::class.java))
-        }
-        authBinding.welcome.setOnClickListener{
-            val intent = Intent(this, DashActivity::class.java)
-            startActivity(intent)
+            Log.i("Button", "Pressed")
         }
     }
 
